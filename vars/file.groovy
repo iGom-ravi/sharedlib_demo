@@ -1,9 +1,9 @@
-import com;
+import com.*;
 
-def call(String name){
+def info(String name){
   TestSrc test= new TestSrc();
-  print(test);
-  print(test.displayname(name));
-  print("Hello ${name}");
+  println(test);
+  println(test.displayname(name));
+  println("Hello ${name}");
   echo "Hi ${name}"
 }
