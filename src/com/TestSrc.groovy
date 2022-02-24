@@ -7,19 +7,19 @@ public class TestSrc{
   public String display(String name){
     if ("${name}" == "Clean")
                     {
-                     sh "mvn clean"
+                     bat "mvn clean"
                     }
               else if ("${name}" == "Compile")
                     {
-                    sh "mvn clean compile"
+                    bat "mvn clean compile"
                     }
                else if ("${name}" == "Test")
                     {
-                    sh "mvn clean test"
+                    bat "mvn clean test"
                     }
                  else if ("${name}" == "Install")
                     {
-                    sh "mvn clean install"
+                    bat "mvn clean install"
                     }
              return "im returing ${name}"
   }
