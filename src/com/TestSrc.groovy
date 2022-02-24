@@ -4,7 +4,7 @@ public class TestSrc{
  public TestSrc(){
   print("Inside Const")
  }
-  public String display{
+  public String display(String name){
     return "im returing ${name}"
   }
 }
