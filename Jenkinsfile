@@ -16,7 +16,7 @@
  steps{
  script{
 //welcome.info("ramesh")
- file.info("Clean")
+ file.info("Test")
  }
  }
  }
