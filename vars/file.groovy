@@ -9,19 +9,19 @@ def info(String name){
     
        if ("${name}" == "Clean")
                     {
-                     print("mvn clean")
+                     sh "mvn clean"
                     }
               else if ("${name}" == "Compile")
                     {
-                    print("mvn clean compile")
+                    sh "mvn clean compile"
                     }
                else if ("${name}" == "Test")
                     {
-                    print("mvn clean test")
+                    sh "mvn clean test"
                     }
                  else if ("${name}" == "Install")
                     {
-                    print("mvn clean install")
+                    sh "mvn clean install"
                     }
 
 
