@@ -1,7 +1,7 @@
 import com;
 
 def call(String name){
-  TestSrc test=TestSrc();
+  TestSrc test=new TestSrc();
   print(test.displayname(name));
   print("Hello ${name}");
   echo "Hi ${name}"
