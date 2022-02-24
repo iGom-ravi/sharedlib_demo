@@ -5,22 +5,22 @@ public class TestSrc{
   print("Inside Const")
  }
   public String display(String name){
-    if ("${name}" == "Clean")
+    if ("${name}" == "Test")
                     {
-                     print( "mvn clean")
+                     return  "mvn clean"
                     }
               else if ("${name}" == "Compile")
                     {
-                    print(  "mvn clean compile")
+                    return   "mvn clean compile"
                     }
-               else if ("${name}" == "Test")
+               else if ("${name}" == "Test1")
                     {
-                    print(  "mvn clean test")
+                    return   "mvn clean test"
                     }
                  else if ("${name}" == "Install")
                     {
-                    print(  "mvn clean install")
+                    return   "mvn clean install"
                     }
-             return "im returing ${name}"
+            return "hy im not working"
   }
 }
