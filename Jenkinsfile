@@ -11,7 +11,6 @@
         git url: "https://github.com/javabycode/spring-boot-maven-example-helloworld.git"
         }
     }
- }
  stage('demo')
  {
  steps{
